@@ -1,6 +1,6 @@
-# Welcome to Readability Research Foundation
+# Welcome to the Readability Research Foundation
 
-**Pardon our dust, a new site is coming soon!**
+**Please pardon our dust, a new site is coming soon!**
 
 ### What do we want to do?
 
@@ -23,4 +23,6 @@ Dr. Shaun Wallace
 Assistant Professor, Computer Science
 University of Rhode Island
 
-**More researchers and community members will be joining.***
+**More researchers and community members will be joining.**
+
+![logo for the Readability Research Foundation](https://readability-research-foundation.github.io/web/rrf_logo.png)
