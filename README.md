@@ -1,3 +1,8 @@
+---
+layout: default
+title: Readability Research Foundation
+---
+
 <div class="hero">
 
 # Readability Research Foundation
