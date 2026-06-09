@@ -42,7 +42,5 @@ University of Rhode Island
 **More researchers and community members will be joining soon.**
 
 <div class="logo-container">
-
-![Readability Research Foundation Logo](rrf_logo.png)
-
+  <img src="rrf_logo.png" alt="Readability Research Foundation Logo">
 </div>
