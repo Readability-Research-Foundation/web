@@ -16,8 +16,6 @@ body {
 /* Center all content in a readable column */
 body > * {
   max-width: 860px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /* =========================
