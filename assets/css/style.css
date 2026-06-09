@@ -1,64 +1,100 @@
-/* Page width */
-.main-content {
-  max-width: 900px;
-  margin: 0 auto;
+/* ===== Base ===== */
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  line-height: 1.7;
+  color: #0f172a;
+  background: #f6f8fb;
+  margin: 0;
 }
 
-/* Hero */
+/* Centered content column */
+.main-content {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+}
+
+/* ===== Hero (modern, not gradient-heavy) ===== */
 .hero {
   text-align: center;
-  padding: 4rem 2rem;
-  margin: -2rem -2rem 3rem;
-  background: linear-gradient(135deg, #0b2447, #19376d);
-  color: white;
-  border-radius: 0 0 24px 24px;
+  padding: 5rem 2rem 4rem;
+  margin-bottom: 3rem;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
 }
 
 .hero h1 {
-  color: white;
-  border-bottom: none;
-  font-size: clamp(2.5rem, 6vw, 4rem);
-  margin-bottom: 1rem;
+  font-size: clamp(2.2rem, 4vw, 3.2rem);
+  margin: 0 0 1rem;
+  letter-spacing: -0.02em;
 }
 
-.hero p,
-.hero strong,
-.hero em {
-  color: rgba(255, 255, 255, 0.95);
+.hero p {
+  color: #475569;
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
 }
 
-/* Headings */
+/* ===== Sections ===== */
 h2 {
-  color: #19376d;
+  font-size: 1.4rem;
   margin-top: 3rem;
+  margin-bottom: 1rem;
+  color: #0f172a;
+  letter-spacing: -0.01em;
 }
 
-/* Researcher section */
+/* ===== Typography blocks ===== */
+p {
+  font-size: 1.05rem;
+  color: #334155;
+}
+
+/* ===== Researchers (card layout) ===== */
 .researchers {
   display: grid;
-  gap: 1.25rem;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 
 .researchers h3 {
-  margin-bottom: 0.25rem;
-  color: #0b2447;
+  margin: 0;
+  font-size: 1.1rem;
+  color: #0f172a;
 }
 
-/* Logo */
+.researchers p {
+  margin: 0.25rem 0 0;
+  color: #475569;
+}
+
+/* Optional card look */
+.researchers > * {
+  padding: 1rem 1.2rem;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+/* ===== Logo ===== */
 .logo-container {
   text-align: center;
   margin-top: 3rem;
 }
 
 .logo-container img {
-  max-width: 250px;
+  max-width: 180px;
+  width: 100%;
+  opacity: 0.9;
 }
 
-/* Typography */
-body {
-  line-height: 1.75;
+/* ===== Links ===== */
+a {
+  color: #2563eb;
+  text-decoration: none;
 }
 
-p {
-  font-size: 1.05rem;
+a:hover {
+  text-decoration: underline;
 }
