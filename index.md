@@ -1,10 +1,9 @@
-
 ---
 layout: default
 title: Readability Research Foundation
 ---
 
-<div class="hero">
+<section class="hero">
 
 # Readability Research Foundation
 
@@ -12,7 +11,7 @@ title: Readability Research Foundation
 
 *Please pardon our dust — a new site is coming soon.*
 
-</div>
+</section>
 
 ## What do we want to do?
 
@@ -24,7 +23,7 @@ Our community’s research helps Fortune 50 companies deliver text to billions o
 
 ## Who are we?
 
-<div class="researchers">
+<section class="researchers">
 
 ### Dr. Benjamin Wolfe
 Assistant Professor, Psychological & Brain Sciences  
@@ -38,7 +37,7 @@ University of Central Florida
 Assistant Professor, Computer Science  
 University of Rhode Island
 
-</div>
+</section>
 
 **More researchers and community members will be joining soon.**
 
