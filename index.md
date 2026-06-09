@@ -37,4 +37,6 @@ University of Central Florida
 Assistant Professor, Computer Science  
 University of Rhode Island
 
+---
+
 **More researchers and community members will be joining soon.**
