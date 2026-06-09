@@ -3,15 +3,11 @@ layout: default
 title: Readability Research Foundation
 ---
 
-<section class="hero">
-
 # Readability Research Foundation
 
 **Advancing the science of reading, readability, and digital text.**
 
 *Please pardon our dust — a new site is coming soon.*
-
-</section>
 
 ## What do we want to do?
 
