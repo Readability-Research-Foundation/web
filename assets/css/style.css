@@ -18,6 +18,17 @@ body > * {
   max-width: 860px;
 }
 
+content {
+   padding: 2em;
+}
+
+footer {
+   background: #0c4a70;
+   color: white;
+   padding: 2em;
+   min-width: 100% !important;
+}
+
 /* =========================
    Typography
    ========================= */
