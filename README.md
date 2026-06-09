@@ -1,28 +1,43 @@
-# Welcome to the Readability Research Foundation
+<div class="hero">
 
-**Please pardon our dust, a new site is coming soon!**
+# Readability Research Foundation
 
-### What do we want to do?
+**Advancing the science of reading, readability, and digital text.**
 
-Someone you love has problems with reading, and so you know how very little is understood about why and how to help. RRF funds the researchers that will help, fueling discoveries to help all readers. 
+*Please pardon our dust — a new site is coming soon.*
 
-Our community’s research helps Fortune 50 companies to deliver text to billions of readers every day, is changing the way educators help the whole class to read, and powers AI that democratizes typography.
+</div>
 
+## What do we want to do?
 
-### Who are we?
+Someone you love has problems with reading, and so you know how very little is understood about why and how to help.
 
-Dr. Benjamin Wolfe
-Assistant Professor, Psychological & Brain Sciences
+The Readability Research Foundation funds the researchers who will help, fueling discoveries that improve reading outcomes for everyone.
+
+Our community’s research helps Fortune 50 companies deliver text to billions of readers every day, is changing how educators help entire classrooms learn to read, and powers AI that democratizes typography.
+
+## Who are we?
+
+<div class="researchers">
+
+### Dr. Benjamin Wolfe
+Assistant Professor, Psychological & Brain Sciences  
 University of Toronto Mississauga
 
-Dr. Ben D Sawyer
-Associate Professor, Industrial Engineering
+### Dr. Ben D. Sawyer
+Associate Professor, Industrial Engineering  
 University of Central Florida
 
-Dr. Shaun Wallace
-Assistant Professor, Computer Science
+### Dr. Shaun Wallace
+Assistant Professor, Computer Science  
 University of Rhode Island
 
-**More researchers and community members will be joining.**
+</div>
 
-![logo for the Readability Research Foundation](https://readability-research-foundation.github.io/web/rrf_logo.png)
+**More researchers and community members will be joining soon.**
+
+<div class="logo-container">
+
+![Readability Research Foundation Logo](rrf_logo.png)
+
+</div>
