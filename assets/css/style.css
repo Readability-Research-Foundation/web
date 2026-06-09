@@ -7,10 +7,6 @@ body {
   line-height: 1.7;
   color: #0f172a;
   background: #f6f8fb;
-
-  /* THIS is what you asked for: sensible margins */
-  margin: 0;
-  padding: 3rem 1.5rem;
 }
 
 /* Center all content in a readable column */
@@ -18,11 +14,11 @@ body > * {
   max-width: 860px;
 }
 
-content {
+.content {
    padding: 2em;
 }
 
-footer {
+.footer {
    background: #0c4a70;
    color: white;
    padding: 2em;
