@@ -1,17 +1,8 @@
----
-layout: default
-title: Readability Research Foundation
----
-
-<div class="hero">
-
 # Readability Research Foundation
 
 **Advancing the science of reading, readability, and digital text.**
 
 *Please pardon our dust — a new site is coming soon.*
-
-</div>
 
 ## What do we want to do?
 
@@ -22,8 +13,6 @@ The Readability Research Foundation funds the researchers who will help, fueling
 Our community’s research helps Fortune 50 companies deliver text to billions of readers every day, is changing how educators help entire classrooms learn to read, and powers AI that democratizes typography.
 
 ## Who are we?
-
-<div class="researchers">
 
 ### Dr. Benjamin Wolfe
 Assistant Professor, Psychological & Brain Sciences  
@@ -36,8 +25,6 @@ University of Central Florida
 ### Dr. Shaun Wallace
 Assistant Professor, Computer Science  
 University of Rhode Island
-
-</div>
 
 **More researchers and community members will be joining soon.**
 
