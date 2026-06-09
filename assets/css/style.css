@@ -1,95 +1,74 @@
-/* ===== Base ===== */
+/* =========================
+   Base / Page Layout
+   ========================= */
+
 body {
   font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
   line-height: 1.7;
   color: #0f172a;
   background: #f6f8fb;
+
+  /* THIS is what you asked for: sensible margins */
   margin: 0;
+  padding: 3rem 1.5rem;
 }
 
-/* Centered content column */
-.main-content {
-  max-width: 920px;
-  margin: 0 auto;
-  padding: 2.5rem 1.5rem;
+/* Center all content in a readable column */
+body > * {
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* ===== Hero (modern, not gradient-heavy) ===== */
-.hero {
+/* =========================
+   Typography
+   ========================= */
+
+h1 {
   text-align: center;
-  padding: 5rem 2rem 4rem;
-  margin-bottom: 3rem;
-  background: #ffffff;
-  border: 1px solid #e5e7eb;
-  border-radius: 18px;
-}
-
-.hero h1 {
   font-size: clamp(2.2rem, 4vw, 3.2rem);
-  margin: 0 0 1rem;
+  margin: 2rem auto 0.75rem;
   letter-spacing: -0.02em;
 }
 
-.hero p {
+h1 + p {
+  text-align: center;
+  font-size: 1.15rem;
   color: #475569;
-  font-size: 1.1rem;
-  margin: 0.5rem 0;
+  margin-top: 0;
 }
 
-/* ===== Sections ===== */
+h1 + p + p {
+  text-align: center;
+  color: #64748b;
+  margin-top: 0.5rem;
+}
+
 h2 {
-  font-size: 1.4rem;
   margin-top: 3rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.4rem;
   color: #0f172a;
   letter-spacing: -0.01em;
 }
 
-/* ===== Typography blocks ===== */
-p {
-  font-size: 1.05rem;
-  color: #334155;
-}
-
-/* ===== Researchers (card layout) ===== */
-.researchers {
-  display: grid;
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
-.researchers h3 {
-  margin: 0;
+h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.25rem;
   font-size: 1.1rem;
   color: #0f172a;
 }
 
-.researchers p {
-  margin: 0.25rem 0 0;
-  color: #475569;
+p {
+  margin: 0.25rem 0 0.75rem;
+  font-size: 1.05rem;
+  color: #334155;
 }
 
-/* Optional card look */
-.researchers > * {
-  padding: 1rem 1.2rem;
-  background: #ffffff;
-  border: 1px solid #e5e7eb;
-  border-radius: 12px;
-}
+/* =========================
+   Links
+   ========================= */
 
-/* ===== Logo ===== */
-.logo-container {
-  text-align: center;
-  margin-top: 3rem;
-}
-
-.logo-container img {
-  max-width: 180px;
-  width: 100%;
-  opacity: 0.9;
-}
-
-/* ===== Links ===== */
 a {
   color: #2563eb;
   text-decoration: none;
@@ -97,4 +76,39 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+/* =========================
+   Divider spacing (for --- in Markdown)
+   ========================= */
+
+hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 2rem 0;
+}
+
+/* =========================
+   Images (logo, etc.)
+   ========================= */
+
+img {
+  display: block;
+  margin: 3rem auto;
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  opacity: 0.95;
+}
+
+/* =========================
+   Optional: nicer reading rhythm
+   ========================= */
+
+strong {
+  color: #0f172a;
+}
+
+em {
+  color: #475569;
 }
