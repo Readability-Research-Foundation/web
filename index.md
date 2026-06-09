@@ -3,7 +3,9 @@ layout: default
 title: Readability Research Foundation
 ---
 
-# Readability Research Foundation
+<div class="logo-container">
+  <img src="rrf_logo.png" alt="Readability Research Foundation Logo">
+</div>
 
 **Advancing the science of reading, readability, and digital text.**
 
@@ -36,7 +38,3 @@ Assistant Professor, Computer Science
 University of Rhode Island
 
 **More researchers and community members will be joining soon.**
-
-<div class="logo-container">
-  <img src="rrf_logo.png" alt="Readability Research Foundation Logo">
-</div>
