@@ -23,21 +23,21 @@ Our community’s research helps Fortune 50 companies deliver text to billions o
 
 ## Who are we?
 
-<section class="researchers">
-
 ### Dr. Benjamin Wolfe
 Assistant Professor, Psychological & Brain Sciences  
 University of Toronto Mississauga
+
+---
 
 ### Dr. Ben D. Sawyer
 Associate Professor, Industrial Engineering  
 University of Central Florida
 
+---
+
 ### Dr. Shaun Wallace
 Assistant Professor, Computer Science  
 University of Rhode Island
-
-</section>
 
 **More researchers and community members will be joining soon.**
 
