@@ -14,11 +14,11 @@ body > * {
   max-width: 860px;
 }
 
-.content {
+#content {
    padding: 2em;
 }
 
-.footer {
+#footer {
    background: #0c4a70;
    color: white;
    padding: 2em;
