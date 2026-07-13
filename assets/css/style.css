@@ -1,119 +1,281 @@
-/* =========================
-   Base / Page Layout
-   ========================= */
+:root {
+  --rrf-purple: #4f3f75;
+  --rrf-purple-dark: #302648;
+  --rrf-lavender: #d8d2e7;
+  --rrf-lavender-light: #f4f1f8;
+  --rrf-ink: #24212b;
+  --rrf-muted: #696273;
+  --rrf-white: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4.5rem;
+}
 
 body {
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-  line-height: 1.7;
-  color: #0f172a;
-  background: #f6f8fb;
+  color: var(--rrf-ink);
+  background: var(--rrf-white);
 }
 
-/* Center all content in a readable column */
-body > * {
-  max-width: 860px;
+.rrf-navbar {
+  background: rgba(255, 255, 255, 0.96);
+  border-bottom: 1px solid rgba(79, 63, 117, 0.12);
+  backdrop-filter: blur(12px);
 }
 
-#content {
-   padding: 2em;
-}
-
-#footer {
-   background: #0c4a70;
-   color: white;
-   padding: 2em;
-   min-width: 100% !important;
-}
-
-/* =========================
-   Typography
-   ========================= */
-
-h1 {
-  text-align: center;
-  font-size: clamp(2.2rem, 4vw, 3.2rem);
-  margin: 2rem auto 0.75rem;
+.rrf-wordmark {
+  color: var(--rrf-purple-dark);
+  font-weight: 800;
   letter-spacing: -0.02em;
 }
 
-h1 + p {
+.navbar-item {
+  font-weight: 650;
+}
+
+.navbar-item:hover,
+.navbar-item:focus {
+  color: var(--rrf-purple);
+  background: transparent;
+}
+
+.rrf-hero {
+  position: relative;
+  overflow: hidden;
+  color: var(--rrf-white);
+  background:
+    radial-gradient(circle at 15% 20%, rgba(216, 210, 231, 0.28), transparent 32rem),
+    radial-gradient(circle at 85% 75%, rgba(216, 210, 231, 0.16), transparent 28rem),
+    linear-gradient(135deg, var(--rrf-purple-dark), var(--rrf-purple));
+}
+
+.rrf-hero::after {
+  position: absolute;
+  right: -8rem;
+  bottom: -10rem;
+  width: 28rem;
+  height: 28rem;
+  content: "";
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 3rem rgba(255, 255, 255, 0.04),
+    0 0 0 7rem rgba(255, 255, 255, 0.025);
+}
+
+.hero-copy {
+  position: relative;
+  z-index: 1;
+  max-width: 58rem;
+  margin: 0 auto;
+}
+
+.rrf-hero .title,
+.rrf-hero .subtitle {
+  color: var(--rrf-white);
+}
+
+.rrf-hero .title {
+  max-width: 54rem;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 1.05;
+  letter-spacing: -0.035em;
+}
+
+.rrf-hero .subtitle {
+  max-width: 43rem;
+  margin: 1.5rem auto 0;
+  line-height: 1.55;
+}
+
+.eyebrow,
+.section-kicker {
+  margin-bottom: 0.9rem;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.eyebrow {
+  color: var(--rrf-lavender);
+}
+
+.section-kicker {
+  color: var(--rrf-purple);
+}
+
+.hero-actions {
+  margin-top: 2rem;
+}
+
+.button.is-primary {
+  color: var(--rrf-purple-dark);
+  font-weight: 800;
+  background: var(--rrf-lavender);
+  border-color: var(--rrf-lavender);
+}
+
+.button.is-primary:hover,
+.button.is-primary:focus {
+  color: var(--rrf-purple-dark);
+  background: var(--rrf-white);
+  border-color: var(--rrf-white);
+}
+
+.site-note {
+  margin-top: 2rem;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 0.95rem;
+  font-style: italic;
+}
+
+.section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.section-light {
+  background: var(--rrf-white);
+}
+
+.section-accent {
+  background: var(--rrf-lavender-light);
+}
+
+.section-heading {
+  max-width: 48rem;
+  margin: 0 auto 3rem;
+}
+
+.mission-panel {
+  padding: 2.5rem;
+  color: var(--rrf-white);
+  background: var(--rrf-purple-dark);
+  border-radius: 1.25rem;
+  box-shadow: 0 1.5rem 3rem rgba(48, 38, 72, 0.16);
+}
+
+.mission-panel-label {
+  margin-bottom: 1rem;
+  color: var(--rrf-lavender);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.mission-panel p:last-child {
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+.impact-card,
+.person-card {
+  height: 100%;
+  padding: 2rem;
+  background: var(--rrf-white);
+  border: 1px solid rgba(79, 63, 117, 0.1);
+  border-radius: 1rem;
+  box-shadow: 0 1rem 2.5rem rgba(48, 38, 72, 0.07);
+}
+
+.impact-number {
+  margin-bottom: 1.5rem;
+  color: var(--rrf-purple);
+  font-size: 0.82rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+}
+
+.impact-card p:last-child,
+.person-card p {
+  color: var(--rrf-muted);
+  line-height: 1.65;
+}
+
+.person-card {
   text-align: center;
-  font-size: 1.15rem;
-  color: #475569;
-  margin-top: 0;
 }
 
-h1 + p + p {
-  text-align: center;
-  color: #64748b;
-  margin-top: 0.5rem;
+.person-initials {
+  display: grid;
+  width: 5rem;
+  height: 5rem;
+  margin: 0 auto 1.5rem;
+  color: var(--rrf-white);
+  font-size: 1.25rem;
+  font-weight: 900;
+  background: var(--rrf-purple);
+  border-radius: 50%;
+  place-items: center;
 }
 
-h2 {
-  margin-top: 3rem;
-  margin-bottom: 0.75rem;
-  font-size: 1.4rem;
-  color: #0f172a;
-  letter-spacing: -0.01em;
+.person-role {
+  margin-bottom: 0.35rem;
+  font-weight: 700;
 }
 
-h3 {
-  margin-top: 1.5rem;
-  margin-bottom: 0.25rem;
-  font-size: 1.1rem;
-  color: #0f172a;
+.person-organization {
+  font-size: 0.95rem;
 }
 
-p {
-  margin: 0.25rem 0 0.75rem;
-  font-size: 1.05rem;
-  color: #334155;
+.joining-message {
+  max-width: 48rem;
+  margin: 3rem auto 0;
+  padding: 1.5rem;
+  background: var(--rrf-lavender-light);
+  border-radius: 1rem;
 }
 
-/* =========================
-   Links
-   ========================= */
-
-a {
-  color: #2563eb;
-  text-decoration: none;
+.logo-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background: var(--rrf-white);
+  border-top: 1px solid rgba(79, 63, 117, 0.1);
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
-/* =========================
-   Divider spacing (for --- in Markdown)
-   ========================= */
-
-hr {
-  border: none;
-  border-top: 1px solid #e5e7eb;
-  margin: 2rem 0;
-}
-
-/* =========================
-   Images (logo, etc.)
-   ========================= */
-
-img {
-  display: block;
-  padding-bottom: 1em;
-  max-width: 400px;
-  width: 100%;
+.rrf-logo {
+  width: min(24rem, 80vw);
   height: auto;
-  opacity: 0.95;
 }
 
-/* =========================
-   Optional: nicer reading rhythm
-   ========================= */
-
-strong {
-  color: #0f172a;
+.site-footer {
+  padding: 2rem 1.5rem;
+  color: rgba(255, 255, 255, 0.75);
+  background: var(--rrf-purple-dark);
 }
 
-em {
-  color: #475569;
+.site-footer p {
+  margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .navbar-menu {
+    border-top: 1px solid rgba(79, 63, 117, 0.1);
+    box-shadow: 0 0.75rem 1.5rem rgba(48, 38, 72, 0.08);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .rrf-hero .title {
+    font-size: 2.65rem;
+  }
+
+  .rrf-wordmark {
+    max-width: 16rem;
+    line-height: 1.15;
+  }
+
+  .mission-panel {
+    margin-top: 1rem;
+    padding: 2rem;
+  }
 }
