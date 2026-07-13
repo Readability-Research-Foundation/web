@@ -1,4 +1,6 @@
 :root {
+  color-scheme: light;
+
   --rrf-purple: #4f3f75;
   --rrf-purple-dark: #302648;
   --rrf-lavender: #d8d2e7;
@@ -18,9 +20,30 @@ body {
   background: var(--rrf-white);
 }
 
+/*
+ * Explicit heading colors prevent Bulma's theme variables or the browser's
+ * preferred dark color scheme from making headings light gray or white.
+ */
+.section h1,
+.section h2,
+.section h3,
+.section h4,
+.section h5,
+.section h6,
+.section .title,
+.section .subtitle,
+.impact-card h1,
+.impact-card h2,
+.impact-card h3,
+.person-card h1,
+.person-card h2,
+.person-card h3 {
+  color: var(--rrf-ink);
+}
+
 .rrf-navbar {
   background: rgba(255, 255, 255, 0.96);
-  border-bottom: 1px solid rgba(79, 63, 117, 0.12);
+  border-bottom: 1px solid rgba(9, 60, 119, 0.12);
   backdrop-filter: blur(12px);
 }
 
@@ -45,9 +68,21 @@ body {
   overflow: hidden;
   color: var(--rrf-white);
   background:
-    radial-gradient(circle at 15% 20%, rgba(216, 210, 231, 0.28), transparent 32rem),
-    radial-gradient(circle at 85% 75%, rgba(216, 210, 231, 0.16), transparent 28rem),
-    linear-gradient(135deg, var(--rrf-purple-dark), var(--rrf-purple));
+    radial-gradient(
+      circle at 15% 20%,
+      rgba(216, 210, 231, 0.28),
+      transparent 32rem
+    ),
+    radial-gradient(
+      circle at 85% 75%,
+      rgba(216, 210, 231, 0.16),
+      transparent 28rem
+    ),
+    linear-gradient(
+      135deg,
+      var(--rrf-purple-dark),
+      var(--rrf-purple)
+    );
 }
 
 .rrf-hero::after {
@@ -71,6 +106,9 @@ body {
   margin: 0 auto;
 }
 
+.rrf-hero h1,
+.rrf-hero h2,
+.rrf-hero h3,
 .rrf-hero .title,
 .rrf-hero .subtitle {
   color: var(--rrf-white);
@@ -156,6 +194,18 @@ body {
   background: var(--rrf-purple-dark);
   border-radius: 1.25rem;
   box-shadow: 0 1.5rem 3rem rgba(48, 38, 72, 0.16);
+}
+
+.mission-panel h1,
+.mission-panel h2,
+.mission-panel h3,
+.mission-panel h4,
+.mission-panel h5,
+.mission-panel h6,
+.mission-panel .title,
+.mission-panel .subtitle,
+.mission-panel p {
+  color: var(--rrf-white);
 }
 
 .mission-panel-label {
