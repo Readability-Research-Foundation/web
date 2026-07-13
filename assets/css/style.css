@@ -1,10 +1,10 @@
 :root {
   color-scheme: light;
 
-  --rrf-purple: #4f3f75;
-  --rrf-purple-dark: #302648;
-  --rrf-lavender: #d8d2e7;
-  --rrf-lavender-light: #f4f1f8;
+  --rrf-purple: #093c77;
+  --rrf-purple-dark: #06274c;
+  --rrf-lavender: #0d4e9a;
+  --rrf-lavender-light: rgb(26, 99, 193);
   --rrf-ink: #24212b;
   --rrf-muted: #696273;
   --rrf-white: #ffffff;
