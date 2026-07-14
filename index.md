@@ -8,7 +8,11 @@ description: The Readability Research Foundation advances the science of reading
   <div class="container">
     <div class="navbar-brand">
       <a class="navbar-item rrf-wordmark" href="#home">
-        Readability Research Foundation
+        <p class="rrf-name has-text-centered">
+          <span class="rrf-name-bold">Readability</span>
+          <span class="rrf-name-normal">Research</span>
+          <span class="rrf-name-light">Foundation</span>
+        </p>
       </a>
 
       <button
@@ -39,10 +43,17 @@ description: The Readability Research Foundation advances the science of reading
   <div class="hero-body">
     <div class="container has-text-centered">
       <div class="hero-copy">
-        <p class="eyebrow">Readability Research Foundation</p>
+        <p class="eyebrow">
+          <p class="rrf-name has-text-centered">
+            <span class="rrf-name-bold">Readability</span>
+            <span class="rrf-name-normal">Research</span>
+            <span class="rrf-name-light">Foundation</span>
+          </p>
+        </p>
         <h1 class="title is-1">Advancing the science of reading, readability, and digital text.</h1>
         <p class="subtitle is-4">
-          RRF has the goal of making reading as easy for every one of us as it can be.
+          <!--RRF has the goal of making reading as easy for every one of us as it can be.-->
+          Reading should be as easy for every one of us as it can be.
         </p>
 
         <div class="buttons is-centered hero-actions">
@@ -205,12 +216,6 @@ description: The Readability Research Foundation advances the science of reading
           </div>
         </div>
       </div>
-
-      <p class="rrf-name has-text-centered">
-        <span class="rrf-name-bold">Readability</span>
-        <span class="rrf-name-normal">Research</span>
-        <span class="rrf-name-light">Foundation</span>
-      </p>
     </div>
   </section>
 </main>

@@ -5,6 +5,7 @@
 
   --font-body: "Roboto", Arial, sans-serif;
   --font-heading: "Roboto Slab", Georgia, serif;
+  --font-serif: "Roboto Serif", Georgia, serif;
 
   --bulma-family-primary: var(--font-body);
   --bulma-family-secondary: var(--font-heading);
@@ -186,7 +187,7 @@ h6,
 .eyebrow,
 .section-kicker {
   margin-bottom: 0.9rem;
-  font-family: var(--font-body);
+  font-family: var(--font-serif);
   font-size: 0.82rem;
   font-weight: 700;
   letter-spacing: 0.14em;
