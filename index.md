@@ -184,7 +184,7 @@ description: The Readability Research Foundation advances the science of reading
   <section id="impact" class="section section-accent">
     <div class="container">
       <div class="has-text-centered section-heading">
-        <p class="section-kicker">About</p>
+        <h2 class="title is-2">About</h2>
       </div>
 
       <div class="container">
@@ -196,6 +196,7 @@ description: The Readability Research Foundation advances the science of reading
             </p>
           </div>
         </div>
+      </div>
   </section>
 
   <p class="rrf-name">
