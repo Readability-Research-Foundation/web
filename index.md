@@ -42,7 +42,7 @@ description: The Readability Research Foundation advances the science of reading
         <p class="eyebrow">Readability Research Foundation</p>
         <h1 class="title is-1">Advancing the science of reading, readability, and digital text.</h1>
         <p class="subtitle is-4">
-          We support researchers whose discoveries can improve reading outcomes for everyone.
+          RRF has the goal of making reading as easy for every one of us as it can be.
         </p>
 
         <div class="buttons is-centered hero-actions">
@@ -60,22 +60,19 @@ description: The Readability Research Foundation advances the science of reading
       <div class="columns is-variable is-8 is-vcentered">
         <div class="column is-6">
           <p class="section-kicker">Our Mission</p>
-          <h2 class="title is-2">What do we want to do?</h2>
+          <h2 class="title is-2">Building Community</h2>
           <div class="content is-medium">
             <p>
-              Someone you love has problems with reading, and so you know how very little is understood about why and how to help.
-            </p>
-            <p>
-              The Readability Research Foundation funds the researchers who will help, fueling discoveries that improve reading outcomes for everyone.
+              Our community’s shared interest is in a new understanding of readability. Our topic is too big to fit in any one research area, and so we invite experts from many disciplines. 
             </p>
           </div>
         </div>
 
         <div class="column is-6">
           <div class="mission-panel">
-            <p class="mission-panel-label">Why this matters</p>
+            <p class="mission-panel-label">Community Meetings</p>
             <p>
-              Reading affects education, work, health, civic participation, and access to digital information. Better evidence can help people receive text that works for them.
+              If you work in this space or are interested in it, we want you to be part of our community. Request an invitation to our community meetings, restarting in September 2026.
             </p>
           </div>
         </div>
