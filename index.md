@@ -137,8 +137,10 @@ description: The Readability Research Foundation advances the science of reading
             <div class="person-initials" aria-hidden="true">BW</div>
             <h3 class="title is-4">Dr. Benjamin Wolfe</h3>
             <p class="person-role">Assistant Professor</p>
-             <p class="person-role">Psychological &amp; Brain Sciences</p>
-            <p class="person-organization">University of Toronto Mississauga</p>
+            <p class="person-role">Psychological &amp; Brain Sciences</p>
+            <p class="person-role">University of Toronto Mississauga</p>
+            <p class="person-organization">Founder, Readability Research Foundation</p>
+            <p class="person-organization">Chair, Scientific Council, RRF</p>
           </article>
         </div>
 
@@ -148,7 +150,9 @@ description: The Readability Research Foundation advances the science of reading
             <h3 class="title is-4">Dr. Ben D. Sawyer</h3>
             <p class="person-role">Associate Professor</p>
             <p class="person-role">Industrial Engineering</p>
-            <p class="person-organization">University of Central Florida</p>
+            <p class="person-role">University of Central Florida</p>
+            <p class="person-organization">Co-Founder, Readability Research Foundation</p>
+            <p class="person-organization">Chair, Executive Council</p>
           </article>
         </div>
 
@@ -159,6 +163,7 @@ description: The Readability Research Foundation advances the science of reading
             <p class="person-role">Assistant Professor</p>
             <p class="person-role">Computer Science</p>
             <p class="person-organization">University of Rhode Island</p>
+            <p class="person-organization">Co-Founder, Readability Research Foundation</p>
           </article>
         </div>
       </div>
