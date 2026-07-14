@@ -184,6 +184,10 @@ body {
   background: var(--rrf-cloud-light);
 }
 
+.section-accent {
+  background: var(--rrf-super-light);
+}
+
 .section-heading {
   max-width: 48rem;
   margin: 0 auto 3rem;
