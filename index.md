@@ -181,27 +181,36 @@ description: The Readability Research Foundation advances the science of reading
     </div>
   </section>
 
-  <section id="impact" class="section section-accent">
+    <section id="about" class="section section-accent">
     <div class="container">
       <div class="has-text-centered section-heading">
         <h2 class="title is-2">About</h2>
       </div>
 
-      <div class="container">
-      <div class="columns is-variable is-12 is-vcentered">
+      <div class="columns is-variable is-8 is-vcentered">
         <div class="column is-12">
           <div class="content is-medium">
             <p>
-              Readability Research Foundation is a project of non-profit Readability Matters. All contributions to Readability Research Foundation are used in whole by itself. Our governance model is divided between a scientific council and an executive council. Membership is free, and those interested in becoming members can apply here. We are open to academic, industry, government, and other members interested in the science and practice of readability. Our community meetings cover cutting-edge readability research and have a standing prohibition on presentations that promote a product or service.
+              Readability Research Foundation is a project of non-profit
+              Readability Matters. All contributions to Readability Research
+              Foundation are used in whole by itself. Our governance model is
+              divided between a scientific council and an executive council.
+              Membership is free, and those interested in becoming members can
+              apply here. We are open to academic, industry, government, and
+              other members interested in the science and practice of
+              readability. Our community meetings cover cutting-edge
+              readability research and have a standing prohibition on
+              presentations that promote a product or service.
             </p>
           </div>
         </div>
       </div>
-  </section>
 
-  <p class="rrf-name">
-    <span class="rrf-name-bold">Readability</span>
-    <span class="rrf-name-normal">Research</span>
-    <span class="rrf-name-light">Foundation</span>
-  </p>
+      <p class="rrf-name has-text-centered">
+        <span class="rrf-name-bold">Readability</span>
+        <span class="rrf-name-normal">Research</span>
+        <span class="rrf-name-light">Foundation</span>
+      </p>
+    </div>
+  </section>
 </main>
