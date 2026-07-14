@@ -197,4 +197,10 @@ description: The Readability Research Foundation advances the science of reading
           </div>
         </div>
   </section>
+
+  <p class="rrf-name">
+    <span class="rrf-name-bold">Readability</span>
+    <span class="rrf-name-normal">Research</span>
+    <span class="rrf-name-light">Foundation</span>
+  </p>
 </main>

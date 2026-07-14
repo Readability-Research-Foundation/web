@@ -71,6 +71,18 @@ h6,
   color: var(--rrf-ink);
 }
 
+.rrf-name-bold {
+  font-weight: 700;
+}
+
+.rrf-name-normal {
+  font-weight: 400;
+}
+
+.rrf-name-light {
+  font-weight: 300;
+}
+
 .rrf-navbar {
   background: rgba(255, 255, 255, 0.96);
   border-bottom: 1px solid rgba(9, 60, 119, 0.12);
