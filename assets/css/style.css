@@ -17,7 +17,7 @@
   --rrf-cloud-light: #add3ff;
   --rrf-super-light: #e0efff;
   --rrf-ink: #24212b;
-  --rrf-muted: #696273;
+  --rrf-muted: #626273;
   --rrf-white: #ffffff;
 }
 
@@ -72,6 +72,11 @@ h6,
   color: var(--rrf-ink);
 }
 
+.section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .rrf-name {
   font-family: "Roboto Serif", Georgia, serif;
 }
@@ -102,7 +107,7 @@ h6,
 }
 
 .rrf-navbar .navbar-item {
-  color: var(--rrf-blue-dark);
+  color: var(--rrf-muted);
   font-family: var(--font-body);
   font-weight: 700;
 }
@@ -348,6 +353,13 @@ h6,
 .rrf-logo {
   width: min(24rem, 80vw);
   height: auto;
+}
+
+.about-text {
+  max-width: 56rem;
+  margin: 3rem auto 0;
+  color: var(--rrf-ink);
+  line-height: 1.7;
 }
 
 .site-footer {
