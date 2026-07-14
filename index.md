@@ -8,7 +8,9 @@ description: The Readability Research Foundation advances the science of reading
   <div class="container">
     <div class="navbar-brand">
       <a class="navbar-item rrf-wordmark" href="#home">
-        Readability Research Foundation
+        <span>Readability</span>
+        <span>Research</span>
+        <span>Foundation</span>
       </a>
 
       <button
@@ -49,8 +51,6 @@ description: The Readability Research Foundation advances the science of reading
           <a class="button is-primary is-medium" href="#mission">Our Mission</a>
           <a class="button is-light is-medium" href="#people">Meet the Founders</a>
         </div>
-
-        <p class="site-note">Please pardon our dust — a new site is coming soon.</p>
       </div>
     </div>
   </div>
@@ -138,7 +138,8 @@ description: The Readability Research Foundation advances the science of reading
           <article class="person-card">
             <div class="person-initials" aria-hidden="true">BW</div>
             <h3 class="title is-4">Dr. Benjamin Wolfe</h3>
-            <p class="person-role">Assistant Professor, Psychological &amp; Brain Sciences</p>
+            <p class="person-role">Assistant Professor</p>
+             <p class="person-role">Psychological &amp; Brain Sciences</p>
             <p class="person-organization">University of Toronto Mississauga</p>
           </article>
         </div>
@@ -147,7 +148,8 @@ description: The Readability Research Foundation advances the science of reading
           <article class="person-card">
             <div class="person-initials" aria-hidden="true">BS</div>
             <h3 class="title is-4">Dr. Ben D. Sawyer</h3>
-            <p class="person-role">Associate Professor, Industrial Engineering</p>
+            <p class="person-role">Associate Professor</p>
+            <p class="person-role">Industrial Engineering</p>
             <p class="person-organization">University of Central Florida</p>
           </article>
         </div>
@@ -156,7 +158,8 @@ description: The Readability Research Foundation advances the science of reading
           <article class="person-card">
             <div class="person-initials" aria-hidden="true">SW</div>
             <h3 class="title is-4">Dr. Shaun Wallace</h3>
-            <p class="person-role">Assistant Professor, Computer Science</p>
+            <p class="person-role">Assistant Professor</p>
+            <p class="person-role">Computer Science</p>
             <p class="person-organization">University of Rhode Island</p>
           </article>
         </div>
