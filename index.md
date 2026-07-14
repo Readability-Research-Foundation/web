@@ -43,12 +43,10 @@ description: The Readability Research Foundation advances the science of reading
   <div class="hero-body">
     <div class="container has-text-centered">
       <div class="hero-copy">
-        <p class="eyebrow">
-          <p class="rrf-name has-text-centered">
-            <span class="rrf-name-bold">Readability</span>
-            <span class="rrf-name-normal">Research</span>
-            <span class="rrf-name-light">Foundation</span>
-          </p>
+        <p class="rrf-name has-text-centered eyebrow">
+          <span class="rrf-name-bold">Readability</span>
+          <span class="rrf-name-normal">Research</span>
+          <span class="rrf-name-light">Foundation</span>
         </p>
         <h1 class="title is-1">Advancing the science of reading, readability, and digital text.</h1>
         <p class="subtitle is-4">
