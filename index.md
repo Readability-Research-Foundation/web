@@ -8,9 +8,7 @@ description: The Readability Research Foundation advances the science of reading
   <div class="container">
     <div class="navbar-brand">
       <a class="navbar-item rrf-wordmark" href="#home">
-        <span>Readability</span>
-        <span>Research</span>
-        <span>Foundation</span>
+        Readability Research Foundation
       </a>
 
       <button
