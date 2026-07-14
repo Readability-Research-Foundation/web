@@ -72,11 +72,6 @@ h6,
   color: var(--rrf-ink);
 }
 
-.section {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
 .rrf-name {
   font-family: "Roboto Serif", Georgia, serif;
 }
@@ -233,8 +228,8 @@ h6,
 }
 
 .section {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
 }
 
 .section-light {
@@ -344,8 +339,8 @@ h6,
 }
 
 .logo-section {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
   background: var(--rrf-white);
   border-top: 1px solid rgba(9, 60, 119, 0.1);
 }
