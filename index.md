@@ -81,7 +81,7 @@ description: The Readability Research Foundation advances the science of reading
           <div class="mission-panel">
             <p class="mission-panel-label">Attend our Community Meetings</p>
             <p>
-              If you work in this space or are interested in it, we want you to be part of our community. Request an invitation to our community meetings, restarting in September 2026. (more information coming soon!)
+              If you work in this space or are interested in it, we want you to be part of our community. <a href="https://forms.gle/a7DvHCBdvnyHARnX9">Request an invitation to our community meetings</a>, restarting in September 2026. 
             </p>
           </div>
         </div>
