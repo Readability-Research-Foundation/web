@@ -37,7 +37,7 @@ description: The Readability Research Foundation advances the science of reading
   </div>
 </nav>
 
-<header id="home" class="hero is-fullheight-with-navbar rrf-hero">
+<header id="home" class="hero is-medium rrf-hero">
   <div class="hero-body">
     <div class="container has-text-centered">
       <div class="hero-copy">
