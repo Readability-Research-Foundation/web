@@ -70,9 +70,9 @@ description: The Readability Research Foundation advances the science of reading
 
         <div class="column is-6">
           <div class="mission-panel">
-            <p class="mission-panel-label">Community Meetings</p>
+            <p class="mission-panel-label">Attend our Community Meetings</p>
             <p>
-              If you work in this space or are interested in it, we want you to be part of our community. Request an invitation to our community meetings, restarting in September 2026.
+              If you work in this space or are interested in it, we want you to be part of our community. Request an invitation to our community meetings, restarting in September 2026. (more information coming soon!)
             </p>
           </div>
         </div>
@@ -179,5 +179,22 @@ description: The Readability Research Foundation advances the science of reading
         alt="Readability Research Foundation logo"
       >
     </div>
+  </section>
+
+  <section id="impact" class="section section-accent">
+    <div class="container">
+      <div class="has-text-centered section-heading">
+        <p class="section-kicker">About</p>
+      </div>
+
+      <div class="container">
+      <div class="columns is-variable is-12 is-vcentered">
+        <div class="column is-12">
+          <div class="content is-medium">
+            <p>
+              Readability Research Foundation is a project of non-profit Readability Matters. All contributions to Readability Research Foundation are used in whole by itself. Our governance model is divided between a scientific council and an executive council. Membership is free, and those interested in becoming members can apply here. We are open to academic, industry, government, and other members interested in the science and practice of readability. Our community meetings cover cutting-edge readability research and have a standing prohibition on presentations that promote a product or service.
+            </p>
+          </div>
+        </div>
   </section>
 </main>
