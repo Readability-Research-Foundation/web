@@ -83,7 +83,7 @@ description: The Readability Research Foundation advances the science of reading
             <p>
               If you work in this space or are interested in it, we want you to be part of our community. Restarting in September 2026: 
               <br>
-              <a class="community-link" href="https://forms.gle/a7DvHCBdvnyHARnX9"><strong>Request an invitation to our community meetings</strong></a>,  
+              <a class="community-link" href="https://forms.gle/a7DvHCBdvnyHARnX9"><strong>Request an invitation to our community meetings</strong></a>
             </p>
           </div>
         </div>
