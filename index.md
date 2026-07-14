@@ -112,17 +112,17 @@ description: The Readability Research Foundation advances the science of reading
             <p class="impact-number">02</p>
             <h3 class="title is-4">Education</h3>
             <p>
-              Our work is changing how educators help entire classrooms learn to read.
+              Our work is improves tools, changing how educators help entire classrooms learn to read.
             </p>
           </article>
         </div>
-
+         
         <div class="column">
           <article class="impact-card">
             <p class="impact-number">03</p>
             <h3 class="title is-4">Technology</h3>
             <p>
-              Our research powers AI and other tools that make typography and digital text more accessible.
+              Our research informs how AI and other tools that make typography and digital text more accessible.
             </p>
           </article>
         </div>
