@@ -227,6 +227,17 @@ h6,
   font-weight: 300;
 }
 
+.community-link {
+  color: var(--rrf-cloud-light);
+  font-weight: 700;
+}
+
+.community-link:hover,
+.community-link:focus {
+  color: var(--rrf-white);
+  text-decoration: underline;
+}
+
 .section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
