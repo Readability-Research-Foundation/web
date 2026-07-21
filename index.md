@@ -149,10 +149,22 @@ description: The Readability Research Foundation advances the science of reading
             <p class="person-role">Psychological &amp; Brain Sciences</p>
             <p class="person-role">University of Toronto Mississauga</p>
             <p class="person-organization">Founder, Readability Research Foundation</p>
-            <p class="person-organization">Chair, Scientific Council, RRF</p>
+            <p class="person-organization">Chair, Scientific Council</p>
           </article>
         </div>
 
+        <div class="column">
+          <article class="person-card">
+            <div class="person-initials" aria-hidden="true">SW</div>
+            <h3 class="title is-4">Dr. Sofie Beier</h3>
+            <p class="person-role">Professor</p>
+            <p class="person-role">Design</p>
+            <p class="person-organization">Royal Danish Academy</p>
+            <p class="person-organization">Vice-Chair, Scientific Council</p>
+          </article>
+        </div>
+      </div>
+      <div class="column">
         <div class="column">
           <article class="person-card">
             <div class="person-initials" aria-hidden="true">BS</div>
@@ -173,6 +185,7 @@ description: The Readability Research Foundation advances the science of reading
             <p class="person-role">Computer Science</p>
             <p class="person-organization">University of Rhode Island</p>
             <p class="person-organization">Co-Founder, Readability Research Foundation</p>
+            <p class="person-organization">Vice-Chair, Executive Council</p>
           </article>
         </div>
       </div>
