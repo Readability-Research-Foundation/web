@@ -34,6 +34,7 @@ description: The Readability Research Foundation advances the science of reading
         <a class="navbar-item" href="#mission">Our Mission</a>
         <a class="navbar-item" href="#impact">Our Impact</a>
         <a class="navbar-item" href="#people">Who We Are</a>
+        <a class="navbar-item" href="https://readabilitymatters.org/readability-research-foundation-support">Support Us</a>
       </div>
     </div>
   </div>
