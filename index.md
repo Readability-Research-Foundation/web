@@ -164,7 +164,7 @@ description: The Readability Research Foundation advances the science of reading
           </article>
         </div>
       </div>
-      <div class="column">
+      <div class="columns is-variable is-6">
         <div class="column">
           <article class="person-card">
             <div class="person-initials" aria-hidden="true">BS</div>
