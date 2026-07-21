@@ -155,7 +155,7 @@ description: The Readability Research Foundation advances the science of reading
 
         <div class="column">
           <article class="person-card">
-            <div class="person-initials" aria-hidden="true">SW</div>
+            <div class="person-initials" aria-hidden="true">SB</div>
             <h3 class="title is-4">Dr. Sofie Beier</h3>
             <p class="person-role">Professor</p>
             <p class="person-role">Design</p>
