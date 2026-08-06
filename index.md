@@ -208,8 +208,8 @@ description: The Readability Research Foundation advances the science of reading
 
     <div class="content is-medium about-text">
       <p>
-        Readability Research Foundation is a project of non-profit Readability
-        Matters. All contributions to Readability Research Foundation are used
+        Readability Research Foundation is a project of non-profit <a href="">Readability
+        Matters</a>. All contributions to Readability Research Foundation are used
         in whole by itself. Our governance model is divided between a scientific
         council and an executive council. Membership is free, and those
         interested in becoming members can apply here. We are open to academic,
