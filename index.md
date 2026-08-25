@@ -208,15 +208,13 @@ description: The Readability Research Foundation advances the science of reading
 
     <div class="content is-medium about-text">
       <p>
-        Readability Research Foundation is a project of non-profit <a href="">Readability
-        Matters</a>. All contributions to Readability Research Foundation are used
-        in whole by itself. Our governance model is divided between a scientific
-        council and an executive council. Membership is free, and those
-        interested in becoming members can apply here. We are open to academic,
-        industry, government, and other members interested in the science and
-        practice of readability. Our community meetings cover cutting-edge
-        readability research and have a standing prohibition on presentations
-        that promote a product or service.
+      Readability Research Foundation is a project of non-profit <a href="">Readability Matters</a>. All contributions to Readability Research Foundation are used in whole by itself. Membership in RRF is free, and those interested in becoming members or community meetings can <a class="community-link" href="https://forms.gle/a7DvHCBdvnyHARnX9"><strong>request an apply here.</strong></a>
+      </p>
+      <p>
+      <b>RRF Mission Statement:</b> Readability, how the appearance of text impacts how each person can make meaning of text, is a vast topic that definitionally exceeds the scope of any one expert in a particular domain. The Readability Research Foundation exists in fundamental recognition of this fact, and is the big tent under which we can all share knowledge, research, questions, and practice that advance reading and readability for all. We explicitly welcome experts from all areas, disciplines, practices, and perspectives who are interested in pooling knowledge to improve our collective understanding of readability, because no one member of the community has all the answers.
+      </p>
+      <p>
+      <b>RRF Leadership Model:</b> The RRF is governed by the co-equal Scientific Council and Executive Council, which work in concert to advance the foundation's mission. The <i>Scientific Council</i> is composed of researchers with terminal degrees in relevant fields, organizes the monthly community meetings, and helps to capture the wide scope of readability research. The <i>Executive Council</i> is composed of members who share in the Foundation’s mission, with a particular focus on disseminating research for broad impact.
       </p>
     </div>
   </div>
