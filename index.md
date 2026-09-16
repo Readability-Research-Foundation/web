@@ -208,7 +208,7 @@ description: The Readability Research Foundation advances the science of reading
 
     <div class="content is-medium about-text">
       <p>
-      Readability Research Foundation is a project of non-profit <a href="">Readability Matters</a>. All contributions to Readability Research Foundation are used in whole by itself. Membership in RRF is free, and those interested in becoming members or community meetings can <a class="community-link" href="https://forms.gle/a7DvHCBdvnyHARnX9"><strong>request an apply here.</strong></a>
+      Readability Research Foundation is a project of non-profit <a href="">Readability Matters</a> (EIN 83-4462479). All contributions to Readability Research Foundation are used in whole by itself. Membership in RRF is free, and those interested in becoming members or community meetings can <a class="community-link" href="https://forms.gle/a7DvHCBdvnyHARnX9"><strong>request an apply here.</strong></a>
       </p>
       <p>
       <b>RRF Mission Statement:</b> Readability, how the appearance of text impacts how each person can make meaning of text, is a vast topic that definitionally exceeds the scope of any one expert in a particular domain. The Readability Research Foundation exists in fundamental recognition of this fact, and is the big tent under which we can all share knowledge, research, questions, and practice that advance reading and readability for all. We explicitly welcome experts from all areas, disciplines, practices, and perspectives who are interested in pooling knowledge to improve our collective understanding of readability, because no one member of the community has all the answers.
